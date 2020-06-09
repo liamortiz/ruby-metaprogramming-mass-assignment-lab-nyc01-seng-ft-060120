@@ -1,6 +1,5 @@
 require 'pry'
 class Person
-  attr_accessor :name
   def initialize(attributes)
     
     attributes.each do |attr_name, attr_value|
